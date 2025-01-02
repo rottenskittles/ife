@@ -1,0 +1,15 @@
+* {
+font-family:'Courier New', Courier, monospace;
+background-color: rgb(52, 83, 110);
+}
+
+h1 {
+    color: rgb(23, 36, 48);
+    font-size: 50px;
+    padding-left: 1em;
+}
+
+#header {
+    position: absolute;
+    z-index: 6;
+}
