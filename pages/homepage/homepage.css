@@ -47,3 +47,7 @@ a:active, .headerlinks {
     margin: 1em 3em 0em 3em ;
     color: rgb(38, 55, 71);
 }
+
+.h1content {
+    color: rgb(5, 16, 29);
+}
