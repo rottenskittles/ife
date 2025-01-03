@@ -1,0 +1,49 @@
+* {
+    font-family:'Courier New', Courier, monospace;
+    background-color: rgb(18, 26, 34);
+    }
+    
+    h1 {
+        color: rgb(97, 112, 126);
+        font-size: 50px;
+        position: relative;
+        text-align: center;
+    }
+    
+    .headerlinks {
+        position: relative;
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+    
+    a:link, a:visited, .headerlinks {
+        color: rgb(97, 112, 126);
+        text-decoration: none;
+    }
+    
+    a:hover, .headerlinks {
+        animation: fadein ease .5s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        color: rgb(158, 174, 190);
+    
+    }
+    @keyframes fadein {
+        0% {
+          opacity: 50%;
+        }
+        100% {
+          opacity: 1;
+        }
+    }
+    
+    a:active, .headerlinks {
+        color: rgb(18, 26, 34);
+    }
+    
+    .headerstar {
+        margin: 1em 3em 0em 3em ;
+        color: rgb(23, 36, 48);
+    }

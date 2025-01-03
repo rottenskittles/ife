@@ -6,10 +6,44 @@ background-color: rgb(52, 83, 110);
 h1 {
     color: rgb(23, 36, 48);
     font-size: 50px;
-    padding-left: 1em;
+    position: relative;
+    text-align: center;
 }
 
-#header {
-    position: absolute;
-    z-index: 6;
+.headerlinks {
+    position: relative;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+a:link, a:visited, .headerlinks {
+    color: rgb(18, 26, 34);
+    text-decoration: none;
+}
+
+a:hover, .headerlinks {
+    animation: fadein ease .5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    color: rgb(158, 174, 190);
+
+}
+@keyframes fadein {
+    0% {
+      opacity: 50%;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+
+a:active, .headerlinks {
+    color: rgb(18, 26, 34);
+}
+
+.headerstar {
+    margin: 1em 3em 0em 3em ;
+    color: rgb(38, 55, 71);
 }
